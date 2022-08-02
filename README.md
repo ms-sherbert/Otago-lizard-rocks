@@ -1,7 +1,7 @@
 # Otago-lizard-rocks
 
 # Repository description
-Data from the journal article Herbert S.M., Knox C., Clarke D., Bell T.P. 'Colonisation of constructed rock piles by lizards in a grassland habitat in Otago, New Zealand'. Submitted to the New Zealand Journal of Ecology in 2022.
+Data from the journal article Herbert S.M., Knox C., Clarke D., Bell T.P. 'Colonisation of constructed rock piles by lizards in a grassland habitat in Otago, New Zealand'. Submitted to the New Zealand Journal of Ecology in 2022. While the original analysis was performed in PRESENCE, there is also some code in this repository to provide the option of analysing these data using the 'unmarked' package in R. 
 
 # Abstract
 
