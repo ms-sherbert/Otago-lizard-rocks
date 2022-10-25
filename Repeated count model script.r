@@ -16,7 +16,7 @@ surv.cov<-read.csv(file=file.choose(),header=T) #file is Survey_covariates.csv -
 # [10] "Notes"   
 
 #rearrange lizard data into repeated counts format
-lizardsrp<-tapply(lizards$OM,list(lizards$Stack_ID,lizards$Survey_number),sum)
+lizardsrp <- tapply(lizards$OM,list(lizards$Stack_ID,lizards$Survey_number),sum)
 lizardsrp[is.na(lizardsrp)] <- 0 #replace "NA" values with 0
 
 ##--- For single-season models ---##
@@ -92,3 +92,4 @@ UMFlizards <- unmarkedFramePCO(lizardsrp, siteCovs = NULL, obsCovs = list(TODr,t
 
 #--- run the models  ---#
 #We use pcountOpen to fit a multi-season extension of the Royle (2004) N-mixture model (Dail & Madsen 2011)
+m1 <- pcountOpen(~1, ~1, ~1, ~1, UMFlizards, K=30,dynamics="trend",method="Nelder-Mead")

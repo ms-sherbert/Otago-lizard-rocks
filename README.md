@@ -13,22 +13,22 @@ There are two data files: (1) lizards detected during the monitoring programme, 
 
 Survey-specific covariates apply for the pooled survey period within which all 10 rock piles were surveyed. Each survey of all rock piles was completed within a maximum of 3 hours. The weather covariates did not vary dramatically over the course of each survey period.
 
-"Start_time" is the time in 24h format of the start of the survey of the first rock pile. 
+`Start_time` is the time in 24h format of the start of the survey of the first rock pile. 
 
-"End_time" is the end time in 24h format of the time at which the last rock pile was surveyed. 
+`End_time` is the end time in 24h format of the time at which the last rock pile was surveyed. 
 
-"PM" is a binary variable where "1" = afternoon survey and "0" = morning survey. 
+`PM` is a binary variable where "1" = afternoon survey and "0" = morning survey. 
 
-The numercial (decimal) variable "Temperature" is the average temperature in degrees Celsius at the midpoint of each survey period. 
+The numerical (decimal) variable `Temperature` is the average temperature in degrees Celsius at the midpoint of each survey period. 
 
-The numerical (decimal) variable "Cloud" is the estimated average cloud cover in eighths across the whole survey period. 
+The numerical (decimal) variable `Cloud` is the estimated average cloud cover in eighths across the whole survey period. 
 
-The numerical (integer) variable "Wind" is the average wind speed estimated on the Beaufort scale across the whole survey period. 
+The numerical (integer) variable `Wind` is the average wind speed estimated on the Beaufort scale across the whole survey period. 
 
-"Rain_24" is a binary variable describing whether there was any precipiation in the 24 hour period immediately before the start of a survey period.  "1" = yes,  "0" = no. 
+`Rain_24` is a binary variable describing whether there was any precipitation in the 24 hour period immediately before the start of a survey period.  "1" = yes,  "0" = no. 
 
-"Rain_during" is a binary variable describing whether there was any precipiation during a survey period. "1" = yes,  "0" = no. 
+`Rain_during` is a binary variable describing whether there was any precipitation during a survey period. "1" = yes,  "0" = no. 
 
-The string variables "Weather_notes" describes any other weather observations made during the survey period. 
+The string variables `Weather_notes` describes any other weather observations made during the survey period. 
 
 Missing covariate data are denoted by an empty cell. 
