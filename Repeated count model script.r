@@ -1,4 +1,5 @@
 #Code for constructing repeated count models of the O. maccani data (single season N-mixture models originally done in PRESENCE)
+#NB: Still in development!#
 
 #--- load required packages ---#
 
