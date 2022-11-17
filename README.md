@@ -13,6 +13,8 @@ The main drivers of lizard population declines in New Zealand are habitat loss a
 
 `Lizard_detections.csv` Repeated count data for lizards detected on the rock piles.
 
+`Repeated count model script.r` In development. Options for analysing the data in the unamrked R package. 
+
 `Survey_covariates` Survey-specific covariate data. 
 
 `Wald_CI_calcs.r` R code used to calculate Wald 95% confidence intervals for model-averaged lambda (local abundance) values. 
