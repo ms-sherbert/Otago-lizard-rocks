@@ -7,6 +7,13 @@ Data from the journal article Herbert S.M., Knox C., Clarke D., Bell T.P. 'Colon
 
 The main drivers of lizard population declines in New Zealand are habitat loss and introduced predators. Therefore, construction of artificial habitats may be a promising strategy for their conservation. We examined whether ten ~375 m3 rock piles constructed in October 2014 would be colonised by three locally-common lizard species: McCann’s skinks, southern grass skinks, and korero geckos. Only McCann’s skinks increased in abundance and formed breeding populations on the rock piles within 2.4 years of their construction. The outcomes for the other two lizard species were unclear because only two korero geckos were encountered on the piles, and no evidence of breeding was observed in southern grass skinks. Artificial rock pile construction may be useful for mitigating habitat loss, or creating new habitat, for McCann’s skinks. However, control sites should be included in future trials and a longer monitoring period is required for korero geckos and southern grass skinks. 
 
+## Repository contents
+
+`Data_manipulation.r` R code for manipulating the data in the two .csv files into the formats required by programme PRESENCE.
+`Lizard_detections.csv` Repeated count data for lizards detected on the rock piles.
+`Survey_covariates` Survey-specific covariate data. 
+`Wald_CI_calcs.r` R code used to calculate Wald 95% confidence intervals for model-averaged lambda (local abundance) values. 
+
 ## Notes on data sets
 
 There are two data files: (1) lizards detected during the monitoring programme, and (2) the survey-specific covariates and weather notes. The lizard detection data can be easily transformed into repeated count data for each lizard species (i.e. as a J x M matrix for J sites and M surveys), e.g. with a pivot table in Excel. 
