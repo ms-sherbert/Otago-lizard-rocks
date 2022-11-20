@@ -41,6 +41,6 @@ The numerical (integer) variable `Wind` is the average wind speed estimated on t
 
 `Rain_during` is a binary variable describing whether there was any precipitation during a survey period. "1" = yes,  "0" = no. 
 
-The string variables `Weather_notes` describes any other weather observations made during the survey period. 
+The string variable `Weather_notes` describes any other weather observations made during the survey period. 
 
 Missing covariate data are denoted by an empty cell. 
