@@ -21,7 +21,7 @@ The main drivers of lizard population declines in New Zealand are habitat loss a
 
 ## Notes on data sets
 
-There are two data files: (1) lizards detected during the monitoring programme, and (2) the survey-specific covariates and weather notes. The lizard detection data can be easily transformed into repeated count data for each lizard species (i.e. as a J x M matrix for J sites and M surveys), e.g. with a pivot table in Excel. 
+There are two data files: (1) lizards detected during the monitoring programme, and (2) the survey-specific covariates and weather notes. The lizard detection data can be easily transformed into repeated count data for each lizard species (i.e. as a J x M matrix for J sites and M surveys), e.g. by running the `Data_manipulation.r` R code in this repository or with a pivot table in Excel. 
 
 Survey-specific covariates apply for the pooled survey period within which all 10 rock piles were surveyed. Each survey of all rock piles was completed within a maximum of 3 hours. The weather covariates did not vary dramatically over the course of each survey period.
 
